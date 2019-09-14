@@ -9,3 +9,7 @@ The model have been trained using images of flowers from: http://www.robots.ox.a
 ## Converting images to grayscale
 To train my model I needed the real images and the images in grayscale.
 I used a very simple program to transform the [images to grayscale](/images%20to%20grayscale.ipynb).
+With this I have 8189 color images and 8189 images in grayscale and this is my dataset.
+
+## The pix2pix model
+To implement this pix2pix algorithm I have based on [the explanation on tensorflow](https://www.tensorflow.org/beta/tutorials/generative/pix2pix) and the [youtube video of Dot CSV](https://youtu.be/YsrMGcgfETY). I want to participate in the challenge [#RetoDotCSV2080Super](https://www.youtube.com/watch?v=BNgAaCK920E).
